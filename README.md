@@ -36,7 +36,7 @@ We implemented a multi-tier security system:
 
 
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 1. **Clone the project** to your local machine.
 2. **Install dependencies**:
@@ -64,7 +64,7 @@ node server.js
 
 5. **Access the App**: Open `http://localhost:3000` in your browser.
 
-## 🧪 API Testing with Postman
+##  API Testing with Postman
 
 A pre-configured **Postman Collection** (`Assignment4.postman_collection.json`) is included in this repository.
 
