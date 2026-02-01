@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plushie Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="brand">PLUSHIE<span>.</span></div>
+    <div id="nav-user">
+        <a href="login.html" class="btn-pink">Login</a>
+    </div>
+</div>
+
+<div id="admin-section" class="hidden" style="padding: 20px 5%; background: var(--light-pink);">
+    <h3>Admin Panel: Add New Plushie</h3>
+    <div style="display: flex; gap: 10px;">
+        <input type="text" id="t-name" placeholder="Name">
+        <input type="number" id="t-price" placeholder="Price">
+        <input type="text" id="t-img" placeholder="Image URL">
+        <button class="btn-pink" onclick="createToy()">Add Toy</button>
+    </div>
+</div>
+
+<div class="toy-grid" id="toy-display">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
