@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login | Makeship Toy Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html" class="brand">PLUSHIE<span>.</span></a>
+</div>
+
+<div class="auth-container">
+  <div class="auth-card" id="login-form">
+    <h2>Sign in to your account</h2>
+    <div class="input-group">
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+    </div>
+    <button class="btn-black" onclick="login()">Sign In</button>
+    <p>New? <span style="color:var(--main-pink); cursor:pointer" onclick="toggleAuth()">Create Account</span></p>
+  </div>
+
+  <div class="auth-card hidden" id="register-form">
+    <h2>Create Account</h2>
+    <div class="input-group">
+      <input type="email" id="reg-email" placeholder="Email">
+      <input type="password" id="reg-password" placeholder="Password">
+      <select id="reg-role">
+        <option value="user">Customer</option>
+        <option value="admin">Admin</option>
+      </select>
+    </div>
+    <button class="btn-black" onclick="register()">Register</button>
+    <p>Back to <span style="color:var(--main-pink); cursor:pointer" onclick="toggleAuth()">Login</span></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
